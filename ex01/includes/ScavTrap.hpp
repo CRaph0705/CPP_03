@@ -6,7 +6,7 @@
 /*   By: rcochran <rcochran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/28 10:28:25 by rcochran          #+#    #+#             */
-/*   Updated: 2025/10/28 11:38:35 by rcochran         ###   ########.fr       */
+/*   Updated: 2025/10/28 12:55:34 by rcochran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,5 +24,6 @@ public :
 	ScavTrap	&operator=(const ScavTrap &cpy);
 	~ScavTrap( void );
 
+	void	attack(const std::string& target);
 	void	guardGate();
 };
