@@ -6,7 +6,7 @@
 /*   By: rcochran <rcochran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/27 15:26:54 by rcochran          #+#    #+#             */
-/*   Updated: 2025/10/28 11:04:55 by rcochran         ###   ########.fr       */
+/*   Updated: 2025/11/06 10:03:13 by rcochran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,8 @@ protected :
 	int	attack_damage;
 
 public :
-	ClapTrap( void );
-	ClapTrap( std::string name );
+	// ClapTrap( void );
+	ClapTrap( std::string name = "DEFAULT");
 	ClapTrap(const ClapTrap& cpy);
 	ClapTrap	&operator=(const ClapTrap &cpy);
 	~ClapTrap( void );

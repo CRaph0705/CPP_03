@@ -6,7 +6,7 @@
 /*   By: rcochran <rcochran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/27 15:26:50 by rcochran          #+#    #+#             */
-/*   Updated: 2025/10/28 11:52:01 by rcochran         ###   ########.fr       */
+/*   Updated: 2025/11/06 10:16:15 by rcochran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,11 @@
 
 #define CLAPTRAP "\033[1;31mClapTrap\033[0m"
 
-ClapTrap::ClapTrap( void )
-{
-	std::cout<< "ClapTrap Default constructor called" << std::endl;
-	return ;
-}
+// ClapTrap::ClapTrap( void )
+// {
+// 	std::cout<< "ClapTrap Default constructor called" << std::endl;
+// 	return ;
+// }
 
 ClapTrap::ClapTrap( std::string name ) : _name(name)
 {

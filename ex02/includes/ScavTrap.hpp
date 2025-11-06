@@ -6,7 +6,7 @@
 /*   By: rcochran <rcochran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/28 10:28:25 by rcochran          #+#    #+#             */
-/*   Updated: 2025/10/28 12:55:34 by rcochran         ###   ########.fr       */
+/*   Updated: 2025/11/06 10:11:40 by rcochran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ class ScavTrap : public ClapTrap
 {
 
 public :
-	ScavTrap( std::string name );
+	ScavTrap( std::string name ="DEFAULT" );
 	ScavTrap(const ScavTrap& cpy);
 	ScavTrap	&operator=(const ScavTrap &cpy);
 	~ScavTrap( void );

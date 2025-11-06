@@ -6,7 +6,7 @@
 /*   By: rcochran <rcochran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/28 13:02:34 by rcochran          #+#    #+#             */
-/*   Updated: 2025/10/28 13:34:30 by rcochran         ###   ########.fr       */
+/*   Updated: 2025/11/06 10:16:18 by rcochran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,10 @@
 
 FragTrap::FragTrap(void)
 {
+	this->_name = "DEFAULT";
+	this->hit_points = 100;
+	this->energy_points = 100;
+	this->attack_damage = 30;
 	std::cout << FRAGTRAP " Default constructor called.\n";
 	return ;
 }

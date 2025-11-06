@@ -6,7 +6,7 @@
 /*   By: rcochran <rcochran@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/27 15:26:50 by rcochran          #+#    #+#             */
-/*   Updated: 2025/10/28 10:22:31 by rcochran         ###   ########.fr       */
+/*   Updated: 2025/11/06 09:58:17 by rcochran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 ClapTrap::ClapTrap( std::string name ) : _name(name)
 {
-	std::cout<< "ClapTrap Default constructor called" << std::endl;
+	std::cout<< "ClapTrap overloaded constructor called" << std::endl;
 	this->hit_points = 10;
 	this->energy_points = 10;
 	this->attack_damage = 0;
